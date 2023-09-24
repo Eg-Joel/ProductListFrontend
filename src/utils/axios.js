@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "http://localhost:5000/api/" 
+const baseUrl = "https://productlist-pkbo.onrender.com/api/" 
 const instance =axios.create({
     baseURL:baseUrl,
 })
